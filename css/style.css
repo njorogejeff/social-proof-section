@@ -26,6 +26,10 @@ body {
     max-width: 480px;
     min-height: 100vh;
     margin: 0 auto;
+    background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    overflow-x: hidden;
 }
 img {
     display: block;
@@ -37,7 +41,7 @@ img {
 /* Social Proof Section Styles */
 .card__container {
     width: 90%;
-    margin: 5rem auto;
+    margin: 6rem auto;
     min-height: 100vh;
 }
 .card__title {
@@ -84,11 +88,11 @@ img {
 }
 .card {
     background-color: var(--very-dark-magneta);
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
     color: var(--white);
     font-size: 1.2rem;
     border-radius: .5rem;
-    padding: 2.5rem 2rem;
+    padding: 3rem 2.5rem;
 }
 .customer__description {
     display: flex;
@@ -103,4 +107,15 @@ img {
 }
 .customer__name {
     margin-bottom: .5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.customer__tag {
+    font-size: 1.3rem;
+    color: var(--soft-pink);
+}
+.customer__comments {
+    font-size: 1.3rem;
+    line-height: 1.3;
+
 }
